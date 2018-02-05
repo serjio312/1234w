@@ -1,0 +1,209 @@
+body
+{
+    margin: 0;
+
+    background: #29606b;
+}
+
+.wrapper
+{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.btn
+{
+    font-size: 17px;
+    font-size: 15px;
+
+    width: 142px;
+    margin: 0 auto;
+    padding: 15px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.btn__border
+{
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.btn__color1
+{
+    background: #e84c3d;
+}
+
+.btn__color2
+{
+    background: #fdbd1f;
+}
+
+.btn__color3
+{
+    background: #1bbc9b;
+}
+
+header
+{
+    height: 600px;
+
+    background: url(../img/bg.jpg);
+}
+
+.header-top
+{
+    overflow: hidden;
+
+    border-right: 1px solid #2a6c78;
+    border-bottom: 1px solid #2a6c78;
+    border-left: 1px solid #2a6c78;
+    background: rgba(41, 96, 107, .8);
+}
+
+.logo
+{
+    display: inline-block;
+
+    width: 20%;
+}
+
+.logo a
+{
+    font-size: 25px;
+
+    display: block;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.nav
+{
+    display: inline-block;
+    float: right;
+
+    margin: 0;
+    padding: 0;
+}
+
+.nav li
+{
+    display: inline-block;
+
+    list-style-type: none;
+
+    text-align: right;
+}
+
+.nav li a
+{
+    display: block;
+
+    margin-right: 15px;
+    padding: 10px;
+
+    text-decoration: none;
+
+    color: #d5dfe1;
+}
+
+.caption
+{
+    font-size: 41px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.caption2
+{
+    font-size: 31px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.info-block
+{
+    display: flex;
+
+    width: 100%;
+    margin-top: -80px;
+
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+
+.item
+{
+    display: inline-block;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    padding: 55px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.item__bg1
+{
+    background: #e84c3d;
+}
+
+.item__bg2
+{
+    background: #fdbd1f;
+}
+
+.item__bg3
+{
+    background: #1bbc9b;
+}
+
+.item__bg4
+{
+    background: #9b58b5;
+}
+
+.item__pic
+{
+    line-height: 100px;
+
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    background: #fff;
+}
+
+.item__caption
+{
+    font-size: 29px;
+
+    text-transform: uppercase;
+}
+
+.item__txt
+{
+    font-size: 16px;
+}
